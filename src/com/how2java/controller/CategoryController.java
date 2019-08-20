@@ -17,7 +17,7 @@ import com.how2java.util.Page;
 public class CategoryController {
 	@Autowired
 	CategoryService categoryService;
-	
+	 
 	@RequestMapping("listCategory")
 	public ModelAndView listCategory(Page page){
 		ModelAndView mav = new ModelAndView();
